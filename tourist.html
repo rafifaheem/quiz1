@@ -5,6 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tourist Places</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    p {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 20px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+  </style>
 </head>
 <body>
   <ul>
@@ -20,7 +40,29 @@
 
   <main>
     <h2>Must-Visit Attractions</h2>
-    <p>Explore the beautiful beaches, temples, and cultural sites in my hometown.</p>
+    <div class="slider">
+        <div class="slides">
+          <div class="slide">
+            <img src="assets/Owabong.jpg" alt="Owabong">
+          </div>
+          <div class="slide">
+            <img src="assets/SanggaluriPark.jpg" alt="SanggaluriPark">
+          </div>
+          <div class="slide">
+            <img src="assets/Serang.jpg" alt="Serang">
+          </div>
+        </div>
+    
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    <p>Purbalingga has a variety of tourist attractions that can amaze anyone. One of the mainstay destinations is <b>Owabong Waterpark</b>, a water park that is always full of joy and laughter. From fast-paced slides to calming wave pools, Owabong offers fun for all ages. Children and adults can enjoy a variety of refreshing water rides, making Owabong an ideal place for a family vacation.</p>
+
+    <p>For those who are more interested in educational tourism, <b>Sanggaluri Park</b> is the perfect place. This park offers an exciting and educational experience, from an insect house that displays a collection of rare insects to a dinosaur park that provides an experience like exploring prehistoric times. Sanggaluri Park is the perfect place to learn while playing, and will definitely be fun for children and adults alike.</p>
+        
+    <p>No less interesting, there is <b>Serang Tourism Village</b>, located at the foot of Mount Slamet. This village offers stunning natural scenery, with a vast expanse of strawberry gardens. Visitors can pick strawberries directly from the garden and enjoy the beauty of the surrounding nature. Serang Village is also famous for its cool air, as well as mountain views that make it a perfect place to relax. In addition, this village also has various tourist activities such as hiking, camping, and enjoying the beauty of hidden waterfalls.</p>
+        
+    <p>Serang Village provides a tourist experience that blends with nature, allowing visitors to feel the tranquility and freshness that can only be found in the mountains. Interacting with friendly local residents also adds a warm impression, making a visit to this village an unforgettable experience.</p>
   </main>
 
   <script src="script.js"></script>

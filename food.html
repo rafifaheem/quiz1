@@ -5,6 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Local Food</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    p {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 20px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+  </style>
 </head>
 <body>
   <ul>
@@ -20,7 +40,29 @@
 
   <main>
     <h2>Famous Local Dishes</h2>
-    <p>My hometown is known for its delicious dishes, such as Nasi Goreng and Satay.</p>
+    <div class="slider">
+        <div class="slides">
+          <div class="slide">
+            <img src="assets/Mendoan.jpg" alt="Mendoan">
+          </div>
+          <div class="slide">
+            <img src="assets/SateBlengong.jpg" alt="SateBlengong">
+          </div>
+          <div class="slide">
+            <img src="assets/NasiJagung.jpg" alt="NasiJagung">
+          </div>
+          <div class="slide">
+            <img src="assets/SrotoPurbalinga.jpg" alt="SrotoPurbalinga">
+          </div>
+        </div>
+    
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    <p>When talking about Purbalingga, it would be incomplete if you do not taste its delicious culinary riches. One of the most famous is <b>mendoan</b>, a snack made from thin tempeh that is fried until half-cooked. Purbalingga mendoan has a distinctive taste, crispy on the outside but soft on the inside, often served with spicy soy sauce that provides a combination of sweet and savory flavors. Every bite of mendoan will bring warmth and perfect deliciousness to accompany the cool afternoon.</p>
+    <p>In addition to mendoan, there is also <b>sate blengong</b>, a unique dish made from blengong meat, a cross between duck and entok. The chewy and soft blengong meat combined with thick peanut sauce creates an appetizing taste and certainly leaves a deep impression. The savory and slightly sweet taste blends perfectly with the tantalizing aroma of grilled food.</p>
+    <p>You can also try <b>nasi jagung</b>, a simple but nostalgic food. Made from crushed corn and cooked like rice, this dish is often served with traditional side dishes such as lodeh vegetables or shrimp paste chili. In every food stall, you can taste the richness of authentic local flavors that are reminiscent of a simple yet charming rural atmosphere.</p>
+    <p>Last but not least <b>Sroto Purbalingga</b>, Sroto Purbalingga is a signature dish that should not be missed. Sroto is a version of Purbalingga's signature soto that has a unique characteristic, namely served with a sprinkling of crispy yellow crackers and fried peanuts. The savory and spice-rich broth blends perfectly with pieces of beef or chicken, lontong, and bean sprouts, creating a distinctive blend of flavors. Sroto is often the main choice for visitors who want to enjoy a warm and delicious soup dish, especially in the morning or when the weather is cool.</p>
   </main>
 
   <script src="script.js"></script>
